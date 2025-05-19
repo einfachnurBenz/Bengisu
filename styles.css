@@ -1,0 +1,75 @@
+/* styles.css */
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    color: #8a3455;
+    margin: 30px;
+    background-color: rgb(253, 224, 242);
+}
+header, footer {
+    background-color: rgb(240, 149, 194);
+    color: rgb(92, 27, 57);
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: larger;
+
+
+
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: rgb(248, 197, 224);
+    overflow: hidden;
+    border-radius: 10px;
+}
+ nav li {
+    float: left;
+ }
+ nav li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration:solid;
+    color: rgb(88, 21, 55);
+ }
+
+ nav li a :hover {
+    background-color:#e26991;
+ }
+
+ section {
+    background-color: rgb(255, 190, 220);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+
+ section table { 
+    width: 100%;
+    border-collapse:collapse;
+    margin-top: 15;
+ }
+
+table, th, td {
+    border: 2px solid #db5689;
+
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    font-style: oblique;
+}
+.highlight {
+    color: rgb(250, 10, 110);
+    font-weight: bold;
+}
+
+footer {
+    font-weight: bolder;
+    font-style:oblique;
+    font-family: 'Lucida Sans Unicode'
+}
+   
